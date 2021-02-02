@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strconv"
 )
 
@@ -24,11 +23,4 @@ func Solution(N int) int {
 		max = count
 	}
 	return max
-}
-
-func main() {
-	var i int
-	fmt.Println("Введите число: ")
-	fmt.Scanf("%d", &i)
-	fmt.Println(Solution(i))
 }
